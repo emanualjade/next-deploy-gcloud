@@ -6,6 +6,7 @@ const bPage = props => {
     <div>
       <h1>I am a dynamic page</h1>
       <p>Process.env.FANCY: {process.env.FANCY}</p>
+      <p>Process.env.SOME_NUMBER: {process.env.SOME_NUMBER}</p>
       <p>Process.env.NODE_ENV: {process.env.NODE_ENV}</p>
       <Link href="/a">
         <a>Go to static page</a>

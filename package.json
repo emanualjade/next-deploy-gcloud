@@ -2,7 +2,7 @@
   "name": "custom-server-express",
   "version": "1.0.0",
   "scripts": {
-    "dev": "source .env.demo && node server.js",
+    "dev": "source .env.dev && node server.js",
     "build": "next build",
     "start": "cross-env NODE_ENV=production node server.js"
   },

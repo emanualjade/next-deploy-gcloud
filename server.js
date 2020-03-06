@@ -1,4 +1,3 @@
-// require('dotenv').config()
 const express = require('express')
 const next = require('next')
 
@@ -12,14 +11,10 @@ app.prepare().then(() => {
   const server = express()
 
   server.get('/a', (req, res) => {
-    console.log('AAAAAAAAA FROM SERVER')
-    console.log("x process.env.FANCY", process.env.FANCY)
     return app.render(req, res, '/a', req.query)
   })
 
   server.get('/b', (req, res) => {
-    console.log('BBBBBBBBB FROM SERVER')
-    console.log("x process.env.FANCY", process.env.FANCY)
     return app.render(req, res, '/b', req.query)
   })
 

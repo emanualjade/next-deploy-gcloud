@@ -17,6 +17,4 @@ service: demo-frontend
 handlers:
   - url: /.*
     script: auto
-# env_variables:
-  # APP_ENV: demo
 # [END app_yaml]

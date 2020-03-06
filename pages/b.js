@@ -4,8 +4,9 @@ const bPage = props => {
 
   return (
     <div>
-      <h1>Dynamic page</h1>
-      <p>Using something like {process.env.FANCY}</p>
+      <h1>I am a dynamic page</h1>
+      <p>Process.env.FANCY: {process.env.FANCY}</p>
+      <p>Process.env.NODE_ENV: {process.env.NODE_ENV}</p>
       <Link href="/a">
         <a>Go to static page</a>
       </Link>

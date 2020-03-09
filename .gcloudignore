@@ -19,3 +19,4 @@ node_modules/
 # Next.js source code
 /pages
 /components
+.env.build
